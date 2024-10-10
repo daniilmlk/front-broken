@@ -14,18 +14,21 @@ h1 {
 
 /* Basic styling for form containers */
 .container {
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    max-width: 600px;
+   margin: 0 auto;
+   border: 1px solid #ccc;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   background-color: white;
+   text-align: left;
 }
 
 /* Form title styling */
 .container h2 {
     margin-bottom: 15px;
     font-size: 24px;
+    text-align: center;
 }
 
 /* Styling for form fields */
@@ -55,6 +58,7 @@ h1 {
     background-color: #4CAF50;
     color: white;
     cursor: pointer;
+    text-align: center;
 }
 
 /* Hover effect for submit button */
